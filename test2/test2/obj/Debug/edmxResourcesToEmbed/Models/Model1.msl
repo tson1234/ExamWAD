@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TEST2ModelStoreContainer" CdmEntityContainer="TEST2Entities">
+    <EntitySetMapping Name="Exam2">
+      <EntityTypeMapping TypeName="TEST2Model.Exam2">
+        <MappingFragment StoreEntitySet="Exam2">
+          <ScalarProperty Name="examID" ColumnName="examID" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="examDate" ColumnName="examDate" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="classroom" ColumnName="classroom" />
+          <ScalarProperty Name="faculty" ColumnName="faculty" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

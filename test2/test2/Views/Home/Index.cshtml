@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h4 style="color:purple">
+    <b>subject:</b>  @ViewBag.subject <br />
+    <b>startTime:</b> @ViewBag.starttime<br />
+    <b>examDate:</b> @ViewBag.examDate<br />
+    <b>duration:</b> @ViewBag.duration<br />
+    <b>classroom:</b> @ViewBag.classroom<br />
+    <b>faculty:</b> @ViewBag.faculty<br />
+</h4>
+<hr />
+<h3><b>Create New Exam</b></h3>
+
+<form action="form1" method="post">
+    <table>
+        <tr>
+            <td>Enter Subject: </td>
+            <td><input type="text" name="txtSubject" /></td>
+        </tr>
+        <tr>
+            <td>Enter Starttime: </td>
+            <td><input type="time" name="txtStarttime" /></td>
+        </tr>
+        <tr>
+            <td>Enter Date: </td>
+            <td><input type="date" name="txtExamDate" /></td>
+        </tr>
+        <tr>
+            <td>Enter Duration: </td>
+            <td><input type="text" name="txtDuration" /></td>
+        </tr>
+        <tr>
+            <td>Enter Classroom: </td>
+            <td><input type="text" name="txtClassroom" /></td>
+        </tr>
+        <tr>
+            <td>Enter Faculty: </td>
+            <td><input type="text" name="txtFaculty" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Create" /></td>
+        </tr>
+    </table>
+</form>
